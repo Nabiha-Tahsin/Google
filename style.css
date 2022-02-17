@@ -1,0 +1,228 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.header{
+    text-align: right;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+
+.header a{
+    display: inline-block;
+    text-decoration: none;
+    font-size: 13px;
+    color: #212121;
+    margin-left: 10px;
+}
+
+.header a:hover{
+    text-decoration: underline;
+}
+
+.image{
+    display: inline-block;
+    margin: 0;
+    position: relative;
+    top: 3px;
+    left: 0;
+    margin-left: 8px;
+    padding: 7px;
+    border-radius: 50%;
+}
+
+.image img{
+    width: 22px;
+    margin-bottom: -4px;
+}
+
+.image:hover{
+    background-color: #F0F0F0;
+    border-radius: 50%;
+    transition: .4s;
+    cursor: pointer;
+}
+
+.header .profile p{
+    display: inline-block;
+    height: 30px;
+    width: 30px;
+    text-align: center;
+    line-height: 30px;
+    background-color: #ef6c00;
+    color: #fff;
+    border-radius: 50%;
+    cursor: pointer;
+    font-size: 20px;
+
+
+}
+.header .profile{
+    display: inline-block;
+    padding: 5px;
+    border-radius: 50%;
+}
+
+.header .profile:hover{
+    background-color: #F0F0F0;
+    transition: .5s;
+}
+
+/* LOGO */
+
+.google-img{
+    text-align: center;
+    margin-top: 60px;
+}
+.google-img img{
+    width: 380px;
+}
+
+/* **** SCARCH **** */
+
+.scarch{
+    text-align: center;
+}
+
+.scarch span {
+    position: relative;
+    top: 0px;
+    left: 45px;
+    font-size: 12px;
+    color: rgba(0, 0, 0, 0.575);
+}
+
+.scarch input {
+    padding: 14px 50px;
+    width: 440px;
+    border-radius: 50px;
+    border: none;
+    box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.315);
+    font-size: 15px;
+    margin-bottom: 40px;
+}
+
+.scarch img {
+    width: 12px;
+    position: relative;
+    top: 5px;
+    right: 45px;
+    cursor: pointer;
+}
+
+
+/* **** GOOGLE SHORTCUT **** */
+
+.google-short{
+    text-align: center;
+    width: 600px;
+    margin: auto;
+}
+
+
+.google-short span{
+    height: 30px;
+    width: 30px;
+    background-color: #f1f3f4;
+    padding: 12px;
+    border-radius: 50%;
+    display: inline-block;
+    text-align: center;
+    line-height: 30px;
+    font-size: 22px;
+}
+
+
+
+.youtube{
+    color: red;
+    height: 120px;
+    width: 120px;
+    line-height: 90px;
+    display: inline-block;
+    position: relative;
+    border-radius: 5px;
+}
+
+.google-short p {
+    position: absolute;
+    top: 48px;
+    left: 25px;
+    color: rgba(0, 0, 0, 0.829);
+}
+
+.youtube:hover{
+    background-color:#E8E8E9;
+    cursor: pointer;
+    
+}
+
+
+.facebook {
+    color: #0772e6;
+    height: 120px;
+    width: 120px;
+    line-height: 90px;
+    display: inline-block;
+    position: relative;
+    border-radius: 5px;
+}
+
+
+.facebook:hover{
+    background-color:#E8E8E9;
+    cursor: pointer;
+}
+
+
+.plus{
+    display: inline-block;
+    height: 120px;
+    width: 120px;
+    line-height: 90px;
+    display: inline-block;
+    position: relative;
+    border-radius: 5px;
+}
+
+.plus span{
+    font-size: 17px;
+}
+
+.plus p{
+    position: absolute;
+    top: 48px;
+    left: 10px;
+    color: rgba(0, 0, 0, 0.829);
+}
+
+.plus:hover{
+    background-color:#E8E8E9;
+    cursor: pointer;
+}
+
+
+button{
+    color: #1a73e8;
+    padding: 8px 16px;
+    border: none;
+    box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.404);
+    background-color: #fff;
+    border-radius: 30px;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+button i{
+    margin-right: 10px;
+}
+
+.customize{
+    text-align: right;
+    margin-top: 80px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
